@@ -3,7 +3,7 @@
 'use strict';
 
 import React from 'react';
-
+import PropTypes from 'prop-types';
 import { View, StyleSheet, Text} from 'react-native';
 
 export class HelpText extends React.Component{
@@ -17,7 +17,7 @@ export class HelpText extends React.Component{
 }
 
 HelpText.propTypes = {
-  text: React.PropTypes.string
+  text: PropTypes.string
 }
 
 
